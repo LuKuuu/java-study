@@ -1,0 +1,51 @@
+
+drop database Test3
+
+create database Test3
+
+use Test3
+
+
+
+
+create table testtable1
+(
+FirstName varchar,
+LastName varchar,
+
+gender bit,
+
+)
+
+drop table testtable1
+
+
+create table testtable1
+(
+ID int primary key,
+--key cannot be repeated, and cannot be null
+FirstName varchar(20),
+LastName varchar(20),
+
+gender bit,
+
+birthdate datetime
+
+)
+
+insert into testtable1 values(1,'Chengyang','Li',1, GETDATE())
+
+insert into testtable1 (ID,FirstName,LastName) values(2,'Kun','Qian')
+
+select * from testtable1
+
+
+update testtable1 set birthdate=GETDATE() where gender is null
+
+
+
+-- and /or /ont
+
+
+
+

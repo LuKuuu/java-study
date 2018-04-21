@@ -1,0 +1,43 @@
+--create database
+
+create database Hero2
+
+
+--create table
+
+use Hero2
+
+drop table hero2
+
+create table hero2
+(
+ID int,
+[First name] varchar(50),
+[Last name] varchar(50),
+sex char(2),
+salary int
+)
+
+
+
+
+insert into hero2 values(1,'Chengyang','Li','M',1000)
+
+insert into hero2 values(2,'Kun','Qian','F',1200)
+
+select * from hero2 where sex='M'
+
+update hero2 set salary=salary+salary*0.1 where sex='M' 
+
+insert into hero2 values(3,'dog','dog','N',20)
+
+select * from hero2
+
+delete hero2 where salary < 1000
+
+select * from hero2
+
+
+
+
+

@@ -1,0 +1,106 @@
+
+
+//DTAT TYPE in SQL
+
+char 8000 max
+char(10)  
+// it will be fast in selecting
+
+
+
+varchar(100)
+
+// the size is changeable
+
+
+
+ntext
+
+//max 2^30-1 char
+
+
+text
+
+//non-unicode
+
+nchar
+
+//suitable for other language
+
+nvarchar
+
+//the same
+
+NUMBERS
+
+bit
+// only 0 and 1
+
+int
+//from -2^31 to 2^31-1
+
+bigint
+
+//from -2^63 to 2^63-1
+
+float
+
+// not recommended 
+// float(3) means 0.333
+
+
+numeric(7,2)
+
+// example 12345.67
+
+
+TIME and DATE
+
+datetime
+
+//bir datetime
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
